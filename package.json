@@ -1,0 +1,41 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "test ap",
+  "scripts": {
+    "start": "PORT=9000 webpack-dev-server --config='./webpack.config.js' --mode development",
+    "build": "webpack --config='./webpack.config.js' --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.121",
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-redux": "^5.0.15",
+    "@types/react-router": "^4.4.4",
+    "@types/react-router-redux": "^5.0.18",
+    "@types/redux": "^3.6.0",
+    "@types/styled-components": "^3.0.1",
+    "history": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-redux": "next",
+    "redux": "^3.7.2",
+    "redux-observable": "^0.18.0",
+    "rxjs": "^5.5.6",
+    "styled-components": "^3.4.9",
+    "typesafe-actions": "^1.1.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "awesome-typescript-loader": "^3.4.1",
+    "redux-devtools": "^3.4.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.4"
+  }
+}
